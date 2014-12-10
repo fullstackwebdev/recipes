@@ -1,0 +1,111 @@
+Script started on Wed 10 Dec 2014 12:46:48 AM EST
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap#  dd if=/dev/zero of=/swapfile bs=1G count=4
+dd: memory exhausted by input buffer of size 1073741824 bytes (1.0 GiB)
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# top
+[?1h=[?25l[H[2J(B[mtop - 00:47:09 up 5 min,  1 user,  load average: 0.00, 0.01, 0.01(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  74 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  73 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  1.1 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.8 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m   501808 (B[m[39;49mtotal,(B[m[39;49m[1m   156796 (B[m[39;49mused,(B[m[39;49m[1m   345012 (B[m[39;49mfree,(B[m[39;49m[1m    20056 (B[m[39;49mbuffers(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m        0 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m        0 (B[m[39;49mfree.(B[m[39;49m[1m    85080 (B[m[39;49mcached Mem(B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                             (B[m[39;49m[K
+(B[m    1 root      20   0   33488   2812   1460 S  0.0  0.6   0:01.20 init                                (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd                            (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ksoftirqd/0                         (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H                        (B[m[39;49m[K
+(B[m    6 root      20   0       0      0      0 S  0.0  0.0   0:00.14 kworker/u2:0                        (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0   0:00.12 rcu_sched                           (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0   0:00.02 rcuos/0                             (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh                              (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcuob/0                             (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0                         (B[m[39;49m[K
+(B[m   12 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 watchdog/0                          (B[m[39;49m[K
+(B[m   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 khelper                             (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs                           (B[m[39;49m[K
+(B[m   15 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns                               (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback                           (B[m[39;49m[K
+(B[m   17 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd                         (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                              (B[m[39;49m[K
+(B[m   19 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/u3:0                        (B[m[39;49m[K
+(B[m   20 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd                             (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff                             (B[m[39;49m[K
+(B[m   22 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khubd                               (B[m[39;49m[K
+(B[m   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md                                  (B[m[39;49m[K
+(B[m   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq                          (B[m[39;49m[K
+(B[m   25 root      20   0       0      0      0 S  0.0  0.0   0:00.12 kworker/0:1                         (B[m[39;49m[K
+(B[m   27 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd                          (B[m[39;49m[K
+(B[m   28 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kswapd0                             (B[m[39;49m[K
+(B[m   29 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd                                (B[m[39;49m[K
+(B[m   30 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_mark                       (B[m[39;49m[K
+(B[m   31 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kthrea                     (B[m[39;49m[K
+(B[m   32 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto                              (B[m[39;49m[K
+(B[m   44 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld                            (B[m[39;49m[K
+(B[m   45 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/u2:1                        (B[m[39;49m[K
+(B[m   46 root      20   0       0      0      0 S  0.0  0.0   0:00.00 vballoon                            (B[m[39;49m[K
+(B[m   47 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_0                           (B[m[39;49m[K
+(B[m   48 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_1                           (B[m[39;49m[K[H(B[mtop - 00:47:12 up 5 min,  1 user,  load average: 0.00, 0.01, 0.01(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  74 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  73 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m   501808 (B[m[39;49mtotal,(B[m[39;49m[1m   156896 (B[m[39;49mused,(B[m[39;49m[1m   344912 (B[m[39;49mfree,(B[m[39;49m[1m    20064 (B[m[39;49mbuffers(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m        0 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m        0 (B[m[39;49mfree.(B[m[39;49m[1m    85104 (B[m[39;49mcached Mem(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1334 root      20   0  105632   4448   3464 S  0.3  0.9   0:00.04 sshd                                (B[m[39;49m[K
+(B[m    1 root      20   0   33488   2812   1460 S  0.0  0.6   0:01.20 init                                (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd                            (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ksoftirqd/0                         (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H                        (B[m[39;49m[K
+(B[m    6 root      20   0       0      0      0 S  0.0  0.0   0:00.14 kworker/u2:0                        (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0   0:00.12 rcu_sched                           (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0   0:00.02 rcuos/0                             (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh                              (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcuob/0                             (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0                         (B[m[39;49m[K
+(B[m   12 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 watchdog/0                          (B[m[39;49m[K
+(B[m   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 khelper                             (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs                           (B[m[39;49m[K
+(B[m   15 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns                               (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback                           (B[m[39;49m[K
+(B[m   17 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd                         (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                              (B[m[39;49m[K
+(B[m   19 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/u3:0                        (B[m[39;49m[K
+(B[m   20 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd                             (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff                             (B[m[39;49m[K
+(B[m   22 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khubd                               (B[m[39;49m[K
+(B[m   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md                                  (B[m[39;49m[K
+(B[m   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq                          (B[m[39;49m[K
+(B[m   25 root      20   0       0      0      0 S  0.0  0.0   0:00.12 kworker/0:1                         (B[m[39;49m[K
+(B[m   27 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd                          (B[m[39;49m[K
+(B[m   28 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kswapd0                             (B[m[39;49m[K
+(B[m   29 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd                                (B[m[39;49m[K
+(B[m   30 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_mark                       (B[m[39;49m[K
+(B[m   31 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kthrea                     (B[m[39;49m[K
+(B[m   32 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto                              (B[m[39;49m[K
+(B[m   44 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld                            (B[m[39;49m[K
+(B[m   45 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/u2:1                        (B[m[39;49m[K
+(B[m   46 root      20   0       0      0      0 S  0.0  0.0   0:00.00 vballoon                            (B[m[39;49m[K
+(B[m   47 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_0                           (B[m[39;49m[K[?1l>[43;1H
+[?12l[?25h[K]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# topscript^C
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# df -h .
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1        20G  3.7G   15G  20% /
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# df -h .[4Ptopscriptcd do-enableswap/mkdir do-enableswapls[K^C
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# dd if=/dev/zero of=/swapfile bs=1G count=4
+dd: memory exhausted by input buffer of size 1073741824 bytes (1.0 GiB)
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# dd if=/dev/zero of=/swapfile bs=1G count=4[1P count=4M count=4[C[C[C[C[C[C[C[C[K1024
+1024+0 records in
+1024+0 records out
+1073741824 bytes (1.1 GB) copied, 4.23436 s, 254 MB/s
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# chmod 600 /swapfile
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# mkswap /swapfile
+Setting up swapspace version 1, size = 1048572 KiB
+no label, UUID=da590615-fc17-4dd8-92da-4ed7c0e42c89
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# swapon /swapfile
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# swapon -s
+Filename				Type		Size	Used	Priority
+/swapfile                               file		1048572	0	-1
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# cat >> /etc/fstab
+/swapfile   none    swap    sw    0   0
+]0;root@plop: ~/recipes/devops/ubuntu/do-enableswaproot@plop:~/recipes/devops/ubuntu/do-enableswap# exit
+
+Script done on Wed 10 Dec 2014 12:49:04 AM EST
