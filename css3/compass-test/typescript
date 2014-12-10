@@ -1,0 +1,258 @@
+Script started on Tue 09 Dec 2014 08:08:51 PM PST
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ gem install sass
+Fetching: sass-3.4.9.gemFetching: sass-3.4.9.gem (  1%)Fetching: sass-3.4.9.gem (  2%)Fetching: sass-3.4.9.gem (  3%)Fetching: sass-3.4.9.gem (  4%)Fetching: sass-3.4.9.gem (  5%)Fetching: sass-3.4.9.gem (  6%)Fetching: sass-3.4.9.gem (  7%)Fetching: sass-3.4.9.gem (  8%)Fetching: sass-3.4.9.gem (  9%)Fetching: sass-3.4.9.gem ( 10%)Fetching: sass-3.4.9.gem ( 11%)Fetching: sass-3.4.9.gem ( 12%)Fetching: sass-3.4.9.gem ( 13%)Fetching: sass-3.4.9.gem ( 14%)Fetching: sass-3.4.9.gem ( 15%)Fetching: sass-3.4.9.gem ( 16%)Fetching: sass-3.4.9.gem ( 17%)Fetching: sass-3.4.9.gem ( 18%)Fetching: sass-3.4.9.gem ( 19%)Fetching: sass-3.4.9.gem ( 20%)Fetching: sass-3.4.9.gem ( 21%)Fetching: sass-3.4.9.gem ( 22%)Fetching: sass-3.4.9.gem ( 23%)Fetching: sass-3.4.9.gem ( 24%)Fetching: sass-3.4.9.gem ( 25%)Fetching: sass-3.4.9.gem ( 26%)Fetching: sass-3.4.9.gem ( 27%)Fetching: sass-3.4.9.gem ( 28%)Fetching: sass-3.4.9.gem ( 29%)Fetching: sass-3.4.9.gem ( 31%)Fetching: sass-3.4.9.gem ( 32%)Fetching: sass-3.4.9.gem ( 33%)Fetching: sass-3.4.9.gem ( 34%)Fetching: sass-3.4.9.gem ( 35%)Fetching: sass-3.4.9.gem ( 36%)Fetching: sass-3.4.9.gem ( 41%)Fetching: sass-3.4.9.gem ( 42%)Fetching: sass-3.4.9.gem ( 43%)Fetching: sass-3.4.9.gem ( 44%)Fetching: sass-3.4.9.gem ( 45%)Fetching: sass-3.4.9.gem ( 46%)Fetching: sass-3.4.9.gem ( 47%)Fetching: sass-3.4.9.gem ( 48%)Fetching: sass-3.4.9.gem ( 53%)Fetching: sass-3.4.9.gem ( 54%)Fetching: sass-3.4.9.gem ( 55%)Fetching: sass-3.4.9.gem ( 56%)Fetching: sass-3.4.9.gem ( 57%)Fetching: sass-3.4.9.gem ( 58%)Fetching: sass-3.4.9.gem ( 59%)Fetching: sass-3.4.9.gem ( 60%)Fetching: sass-3.4.9.gem ( 61%)Fetching: sass-3.4.9.gem ( 62%)Fetching: sass-3.4.9.gem ( 63%)Fetching: sass-3.4.9.gem ( 64%)Fetching: sass-3.4.9.gem ( 65%)Fetching: sass-3.4.9.gem ( 66%)Fetching: sass-3.4.9.gem ( 67%)Fetching: sass-3.4.9.gem ( 68%)Fetching: sass-3.4.9.gem ( 73%)Fetching: sass-3.4.9.gem ( 74%)Fetching: sass-3.4.9.gem ( 75%)Fetching: sass-3.4.9.gem ( 76%)Fetching: sass-3.4.9.gem ( 77%)Fetching: sass-3.4.9.gem ( 78%)Fetching: sass-3.4.9.gem ( 79%)Fetching: sass-3.4.9.gem ( 80%)Fetching: sass-3.4.9.gem ( 81%)Fetching: sass-3.4.9.gem ( 82%)Fetching: sass-3.4.9.gem ( 83%)Fetching: sass-3.4.9.gem ( 84%)Fetching: sass-3.4.9.gem ( 85%)Fetching: sass-3.4.9.gem ( 86%)Fetching: sass-3.4.9.gem ( 87%)Fetching: sass-3.4.9.gem ( 88%)Fetching: sass-3.4.9.gem ( 89%)Fetching: sass-3.4.9.gem ( 90%)Fetching: sass-3.4.9.gem ( 91%)Fetching: sass-3.4.9.gem ( 92%)Fetching: sass-3.4.9.gem ( 93%)Fetching: sass-3.4.9.gem ( 94%)Fetching: sass-3.4.9.gem ( 95%)Fetching: sass-3.4.9.gem ( 96%)Fetching: sass-3.4.9.gem ( 97%)Fetching: sass-3.4.9.gem ( 98%)Fetching: sass-3.4.9.gem ( 99%)Fetching: sass-3.4.9.gem (100%)Fetching: sass-3.4.9.gem (100%)
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions into the /var/lib/gems/1.9.1 directory.
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ gem install sass[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for david: 
+Fetching: sass-3.4.9.gemFetching: sass-3.4.9.gem (  1%)Fetching: sass-3.4.9.gem (  2%)Fetching: sass-3.4.9.gem (  3%)Fetching: sass-3.4.9.gem (  4%)Fetching: sass-3.4.9.gem (  5%)Fetching: sass-3.4.9.gem (  6%)Fetching: sass-3.4.9.gem (  7%)Fetching: sass-3.4.9.gem (  8%)Fetching: sass-3.4.9.gem (  9%)Fetching: sass-3.4.9.gem ( 10%)Fetching: sass-3.4.9.gem ( 11%)Fetching: sass-3.4.9.gem ( 12%)Fetching: sass-3.4.9.gem ( 13%)Fetching: sass-3.4.9.gem ( 14%)Fetching: sass-3.4.9.gem ( 15%)Fetching: sass-3.4.9.gem ( 16%)Fetching: sass-3.4.9.gem ( 17%)Fetching: sass-3.4.9.gem ( 18%)Fetching: sass-3.4.9.gem ( 20%)Fetching: sass-3.4.9.gem ( 21%)Fetching: sass-3.4.9.gem ( 22%)Fetching: sass-3.4.9.gem ( 23%)Fetching: sass-3.4.9.gem ( 24%)Fetching: sass-3.4.9.gem ( 25%)Fetching: sass-3.4.9.gem ( 26%)Fetching: sass-3.4.9.gem ( 27%)Fetching: sass-3.4.9.gem ( 28%)Fetching: sass-3.4.9.gem ( 29%)Fetching: sass-3.4.9.gem ( 30%)Fetching: sass-3.4.9.gem ( 31%)Fetching: sass-3.4.9.gem ( 32%)Fetching: sass-3.4.9.gem ( 33%)Fetching: sass-3.4.9.gem ( 34%)Fetching: sass-3.4.9.gem ( 35%)Fetching: sass-3.4.9.gem ( 36%)Fetching: sass-3.4.9.gem ( 37%)Fetching: sass-3.4.9.gem ( 38%)Fetching: sass-3.4.9.gem ( 39%)Fetching: sass-3.4.9.gem ( 40%)Fetching: sass-3.4.9.gem ( 41%)Fetching: sass-3.4.9.gem ( 42%)Fetching: sass-3.4.9.gem ( 43%)Fetching: sass-3.4.9.gem ( 44%)Fetching: sass-3.4.9.gem ( 45%)Fetching: sass-3.4.9.gem ( 46%)Fetching: sass-3.4.9.gem ( 47%)Fetching: sass-3.4.9.gem ( 48%)Fetching: sass-3.4.9.gem ( 49%)Fetching: sass-3.4.9.gem ( 50%)Fetching: sass-3.4.9.gem ( 51%)Fetching: sass-3.4.9.gem ( 52%)Fetching: sass-3.4.9.gem ( 53%)Fetching: sass-3.4.9.gem ( 54%)Fetching: sass-3.4.9.gem ( 55%)Fetching: sass-3.4.9.gem ( 56%)Fetching: sass-3.4.9.gem ( 57%)Fetching: sass-3.4.9.gem ( 58%)Fetching: sass-3.4.9.gem ( 59%)Fetching: sass-3.4.9.gem ( 60%)Fetching: sass-3.4.9.gem ( 61%)Fetching: sass-3.4.9.gem ( 62%)Fetching: sass-3.4.9.gem ( 63%)Fetching: sass-3.4.9.gem ( 64%)Fetching: sass-3.4.9.gem ( 65%)Fetching: sass-3.4.9.gem ( 66%)Fetching: sass-3.4.9.gem ( 67%)Fetching: sass-3.4.9.gem ( 68%)Fetching: sass-3.4.9.gem ( 69%)Fetching: sass-3.4.9.gem ( 70%)Fetching: sass-3.4.9.gem ( 71%)Fetching: sass-3.4.9.gem ( 72%)Fetching: sass-3.4.9.gem ( 73%)Fetching: sass-3.4.9.gem ( 74%)Fetching: sass-3.4.9.gem ( 75%)Fetching: sass-3.4.9.gem ( 76%)Fetching: sass-3.4.9.gem ( 77%)Fetching: sass-3.4.9.gem ( 78%)Fetching: sass-3.4.9.gem ( 79%)Fetching: sass-3.4.9.gem ( 80%)Fetching: sass-3.4.9.gem ( 81%)Fetching: sass-3.4.9.gem ( 82%)Fetching: sass-3.4.9.gem ( 83%)Fetching: sass-3.4.9.gem ( 84%)Fetching: sass-3.4.9.gem ( 85%)Fetching: sass-3.4.9.gem ( 86%)Fetching: sass-3.4.9.gem ( 88%)Fetching: sass-3.4.9.gem ( 89%)Fetching: sass-3.4.9.gem ( 90%)Fetching: sass-3.4.9.gem ( 91%)Fetching: sass-3.4.9.gem ( 92%)Fetching: sass-3.4.9.gem ( 93%)Fetching: sass-3.4.9.gem ( 94%)Fetching: sass-3.4.9.gem ( 95%)Fetching: sass-3.4.9.gem ( 96%)Fetching: sass-3.4.9.gem ( 97%)Fetching: sass-3.4.9.gem ( 98%)Fetching: sass-3.4.9.gem ( 99%)Fetching: sass-3.4.9.gem (100%)Fetching: sass-3.4.9.gem (100%)
+Successfully installed sass-3.4.9
+1 gem installed
+Installing ri documentation for sass-3.4.9...
+Installing RDoc documentation for sass-3.4.9...
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ touch test.scss test.css
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ sass --watch test.scss:test.css &
+[1] 10610
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ >>> Sass is watching for changes. Press Ctrl-C to stop.
+cat > test.scss
+/*! Documents/sass-test/test.scss */
+
+/* Sass variables start with the $ sign, 
+...that's about all that makes it different from LESS syntax :p */
+$my_color: #BADA55;
+
+nav {
+  a{
+    color: $my_color;
+    &:hover {
+      color: darken($my_color, 10%);
+    }
+  }
+}
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ >>> Change detected to: test.scss
+[32m      write test.css
+[0m[32m      write test.css.map
+[0m
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ cat test.css
+/*! Documents/sass-test/test.scss */
+/* Sass variables start with the $ sign, 
+...that's about all that makes it different from LESS syntax :p */
+nav a {
+  color: #BADA55; }
+  nav a:hover {
+    color: #a8cf2d; }
+
+/*# sourceMappingURL=test.css.map */
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ more tst.css.ma
+tst.css.ma: No such file or directory
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ more tst.css.ma[K[K[K[K[K[K[K[K[Kest.css.map 
+{
+"version": 3,
+"mappings": ";;;AAOE,KAAC;EACC,KAAK,EAJE,OAAO;EAKd,WAAQ;IACN,KAAK,EAAE,OAAsB",
+"sources": ["test.scss"],
+"names": [],
+"file": "test.css"
+}
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ sudo gem install compass
+Fetching: multi_json-1.10.1.gemFetching: multi_json-1.10.1.gem (  3%)Fetching: multi_json-1.10.1.gem (  7%)Fetching: multi_json-1.10.1.gem ( 12%)Fetching: multi_json-1.10.1.gem ( 16%)Fetching: multi_json-1.10.1.gem ( 21%)Fetching: multi_json-1.10.1.gem ( 25%)Fetching: multi_json-1.10.1.gem ( 30%)Fetching: multi_json-1.10.1.gem ( 34%)Fetching: multi_json-1.10.1.gem ( 38%)Fetching: multi_json-1.10.1.gem ( 43%)Fetching: multi_json-1.10.1.gem ( 47%)Fetching: multi_json-1.10.1.gem ( 52%)Fetching: multi_json-1.10.1.gem ( 56%)Fetching: multi_json-1.10.1.gem ( 61%)Fetching: multi_json-1.10.1.gem ( 65%)Fetching: multi_json-1.10.1.gem ( 70%)Fetching: multi_json-1.10.1.gem ( 74%)Fetching: multi_json-1.10.1.gem ( 79%)Fetching: multi_json-1.10.1.gem ( 83%)Fetching: multi_json-1.10.1.gem ( 88%)Fetching: multi_json-1.10.1.gem (100%)Fetching: multi_json-1.10.1.gem (100%)
+Fetching: compass-core-1.0.1.gemFetching: compass-core-1.0.1.gem (  2%)Fetching: compass-core-1.0.1.gem (  3%)Fetching: compass-core-1.0.1.gem (  4%)Fetching: compass-core-1.0.1.gem (  5%)Fetching: compass-core-1.0.1.gem (  6%)Fetching: compass-core-1.0.1.gem (  7%)Fetching: compass-core-1.0.1.gem (  8%)Fetching: compass-core-1.0.1.gem (  9%)Fetching: compass-core-1.0.1.gem ( 10%)Fetching: compass-core-1.0.1.gem ( 11%)Fetching: compass-core-1.0.1.gem ( 12%)Fetching: compass-core-1.0.1.gem ( 13%)Fetching: compass-core-1.0.1.gem ( 14%)Fetching: compass-core-1.0.1.gem ( 15%)Fetching: compass-core-1.0.1.gem ( 16%)Fetching: compass-core-1.0.1.gem ( 17%)Fetching: compass-core-1.0.1.gem ( 18%)Fetching: compass-core-1.0.1.gem ( 19%)Fetching: compass-core-1.0.1.gem ( 20%)Fetching: compass-core-1.0.1.gem ( 21%)Fetching: compass-core-1.0.1.gem ( 22%)Fetching: compass-core-1.0.1.gem ( 23%)Fetching: compass-core-1.0.1.gem ( 24%)Fetching: compass-core-1.0.1.gem ( 25%)Fetching: compass-core-1.0.1.gem ( 26%)Fetching: compass-core-1.0.1.gem ( 27%)Fetching: compass-core-1.0.1.gem ( 28%)Fetching: compass-core-1.0.1.gem ( 29%)Fetching: compass-core-1.0.1.gem ( 30%)Fetching: compass-core-1.0.1.gem ( 31%)Fetching: compass-core-1.0.1.gem ( 32%)Fetching: compass-core-1.0.1.gem ( 33%)Fetching: compass-core-1.0.1.gem ( 34%)Fetching: compass-core-1.0.1.gem ( 35%)Fetching: compass-core-1.0.1.gem ( 36%)Fetching: compass-core-1.0.1.gem ( 37%)Fetching: compass-core-1.0.1.gem ( 38%)Fetching: compass-core-1.0.1.gem ( 39%)Fetching: compass-core-1.0.1.gem ( 40%)Fetching: compass-core-1.0.1.gem ( 41%)Fetching: compass-core-1.0.1.gem ( 42%)Fetching: compass-core-1.0.1.gem ( 43%)Fetching: compass-core-1.0.1.gem ( 44%)Fetching: compass-core-1.0.1.gem ( 45%)Fetching: compass-core-1.0.1.gem ( 46%)Fetching: compass-core-1.0.1.gem ( 47%)Fetching: compass-core-1.0.1.gem ( 48%)Fetching: compass-core-1.0.1.gem ( 49%)Fetching: compass-core-1.0.1.gem ( 50%)Fetching: compass-core-1.0.1.gem ( 51%)Fetching: compass-core-1.0.1.gem ( 52%)Fetching: compass-core-1.0.1.gem ( 53%)Fetching: compass-core-1.0.1.gem ( 54%)Fetching: compass-core-1.0.1.gem ( 55%)Fetching: compass-core-1.0.1.gem ( 56%)Fetching: compass-core-1.0.1.gem ( 57%)Fetching: compass-core-1.0.1.gem ( 58%)Fetching: compass-core-1.0.1.gem ( 59%)Fetching: compass-core-1.0.1.gem ( 60%)Fetching: compass-core-1.0.1.gem ( 61%)Fetching: compass-core-1.0.1.gem ( 63%)Fetching: compass-core-1.0.1.gem ( 64%)Fetching: compass-core-1.0.1.gem ( 65%)Fetching: compass-core-1.0.1.gem ( 66%)Fetching: compass-core-1.0.1.gem ( 67%)Fetching: compass-core-1.0.1.gem ( 68%)Fetching: compass-core-1.0.1.gem ( 69%)Fetching: compass-core-1.0.1.gem ( 70%)Fetching: compass-core-1.0.1.gem ( 71%)Fetching: compass-core-1.0.1.gem ( 72%)Fetching: compass-core-1.0.1.gem ( 73%)Fetching: compass-core-1.0.1.gem ( 74%)Fetching: compass-core-1.0.1.gem ( 75%)Fetching: compass-core-1.0.1.gem ( 76%)Fetching: compass-core-1.0.1.gem ( 77%)Fetching: compass-core-1.0.1.gem ( 78%)Fetching: compass-core-1.0.1.gem ( 79%)Fetching: compass-core-1.0.1.gem ( 80%)Fetching: compass-core-1.0.1.gem ( 81%)Fetching: compass-core-1.0.1.gem ( 82%)Fetching: compass-core-1.0.1.gem ( 83%)Fetching: compass-core-1.0.1.gem ( 84%)Fetching: compass-core-1.0.1.gem ( 85%)Fetching: compass-core-1.0.1.gem ( 86%)Fetching: compass-core-1.0.1.gem ( 87%)Fetching: compass-core-1.0.1.gem ( 88%)Fetching: compass-core-1.0.1.gem ( 89%)Fetching: compass-core-1.0.1.gem ( 90%)Fetching: compass-core-1.0.1.gem ( 91%)Fetching: compass-core-1.0.1.gem ( 92%)Fetching: compass-core-1.0.1.gem ( 93%)Fetching: compass-core-1.0.1.gem ( 94%)Fetching: compass-core-1.0.1.gem ( 95%)Fetching: compass-core-1.0.1.gem ( 96%)Fetching: compass-core-1.0.1.gem ( 97%)Fetching: compass-core-1.0.1.gem ( 98%)Fetching: compass-core-1.0.1.gem ( 99%)Fetching: compass-core-1.0.1.gem (100%)Fetching: compass-core-1.0.1.gem (100%)
+Fetching: compass-import-once-1.0.5.gemFetching: compass-import-once-1.0.5.gem (  7%)Fetching: compass-import-once-1.0.5.gem ( 21%)Fetching: compass-import-once-1.0.5.gem ( 36%)Fetching: compass-import-once-1.0.5.gem ( 50%)Fetching: compass-import-once-1.0.5.gem ( 64%)Fetching: compass-import-once-1.0.5.gem ( 78%)Fetching: compass-import-once-1.0.5.gem ( 92%)Fetching: compass-import-once-1.0.5.gem (100%)Fetching: compass-import-once-1.0.5.gem (100%)
+Fetching: chunky_png-1.3.3.gemFetching: chunky_png-1.3.3.gem (  1%)Fetching: chunky_png-1.3.3.gem (  2%)Fetching: chunky_png-1.3.3.gem (  3%)Fetching: chunky_png-1.3.3.gem (  4%)Fetching: chunky_png-1.3.3.gem (  5%)Fetching: chunky_png-1.3.3.gem (  6%)Fetching: chunky_png-1.3.3.gem (  7%)Fetching: chunky_png-1.3.3.gem (  8%)Fetching: chunky_png-1.3.3.gem (  9%)Fetching: chunky_png-1.3.3.gem ( 10%)Fetching: chunky_png-1.3.3.gem ( 11%)Fetching: chunky_png-1.3.3.gem ( 12%)Fetching: chunky_png-1.3.3.gem ( 13%)Fetching: chunky_png-1.3.3.gem ( 14%)Fetching: chunky_png-1.3.3.gem ( 15%)Fetching: chunky_png-1.3.3.gem ( 16%)Fetching: chunky_png-1.3.3.gem ( 17%)Fetching: chunky_png-1.3.3.gem ( 18%)Fetching: chunky_png-1.3.3.gem ( 19%)Fetching: chunky_png-1.3.3.gem ( 20%)Fetching: chunky_png-1.3.3.gem ( 21%)Fetching: chunky_png-1.3.3.gem ( 22%)Fetching: chunky_png-1.3.3.gem ( 23%)Fetching: chunky_png-1.3.3.gem ( 24%)Fetching: chunky_png-1.3.3.gem ( 25%)Fetching: chunky_png-1.3.3.gem ( 26%)Fetching: chunky_png-1.3.3.gem ( 27%)Fetching: chunky_png-1.3.3.gem ( 28%)Fetching: chunky_png-1.3.3.gem ( 32%)Fetching: chunky_png-1.3.3.gem ( 36%)Fetching: chunky_png-1.3.3.gem ( 37%)Fetching: chunky_png-1.3.3.gem ( 38%)Fetching: chunky_png-1.3.3.gem ( 39%)Fetching: chunky_png-1.3.3.gem ( 40%)Fetching: chunky_png-1.3.3.gem ( 41%)Fetching: chunky_png-1.3.3.gem ( 42%)Fetching: chunky_png-1.3.3.gem ( 43%)Fetching: chunky_png-1.3.3.gem ( 44%)Fetching: chunky_png-1.3.3.gem ( 45%)Fetching: chunky_png-1.3.3.gem ( 46%)Fetching: chunky_png-1.3.3.gem ( 47%)Fetching: chunky_png-1.3.3.gem ( 48%)Fetching: chunky_png-1.3.3.gem ( 49%)Fetching: chunky_png-1.3.3.gem ( 50%)Fetching: chunky_png-1.3.3.gem ( 55%)Fetching: chunky_png-1.3.3.gem ( 56%)Fetching: chunky_png-1.3.3.gem ( 57%)Fetching: chunky_png-1.3.3.gem ( 58%)Fetching: chunky_png-1.3.3.gem ( 59%)Fetching: chunky_png-1.3.3.gem ( 60%)Fetching: chunky_png-1.3.3.gem ( 61%)Fetching: chunky_png-1.3.3.gem ( 62%)Fetching: chunky_png-1.3.3.gem ( 63%)Fetching: chunky_png-1.3.3.gem ( 64%)Fetching: chunky_png-1.3.3.gem ( 65%)Fetching: chunky_png-1.3.3.gem ( 66%)Fetching: chunky_png-1.3.3.gem ( 67%)Fetching: chunky_png-1.3.3.gem ( 68%)Fetching: chunky_png-1.3.3.gem ( 69%)Fetching: chunky_png-1.3.3.gem ( 70%)Fetching: chunky_png-1.3.3.gem ( 71%)Fetching: chunky_png-1.3.3.gem ( 72%)Fetching: chunky_png-1.3.3.gem ( 73%)Fetching: chunky_png-1.3.3.gem ( 74%)Fetching: chunky_png-1.3.3.gem ( 75%)Fetching: chunky_png-1.3.3.gem ( 76%)Fetching: chunky_png-1.3.3.gem ( 77%)Fetching: chunky_png-1.3.3.gem ( 78%)Fetching: chunky_png-1.3.3.gem ( 79%)Fetching: chunky_png-1.3.3.gem ( 80%)Fetching: chunky_png-1.3.3.gem ( 81%)Fetching: chunky_png-1.3.3.gem ( 82%)Fetching: chunky_png-1.3.3.gem ( 83%)Fetching: chunky_png-1.3.3.gem ( 84%)Fetching: chunky_png-1.3.3.gem ( 85%)Fetching: chunky_png-1.3.3.gem ( 86%)Fetching: chunky_png-1.3.3.gem ( 87%)Fetching: chunky_png-1.3.3.gem ( 88%)Fetching: chunky_png-1.3.3.gem ( 89%)Fetching: chunky_png-1.3.3.gem ( 90%)Fetching: chunky_png-1.3.3.gem ( 91%)Fetching: chunky_png-1.3.3.gem ( 92%)Fetching: chunky_png-1.3.3.gem ( 93%)Fetching: chunky_png-1.3.3.gem ( 94%)Fetching: chunky_png-1.3.3.gem ( 97%)Fetching: chunky_png-1.3.3.gem ( 98%)Fetching: chunky_png-1.3.3.gem ( 99%)Fetching: chunky_png-1.3.3.gem (100%)Fetching: chunky_png-1.3.3.gem (100%)
+Fetching: compass-1.0.1.gemFetching: compass-1.0.1.gem (  1%)Fetching: compass-1.0.1.gem (  2%)Fetching: compass-1.0.1.gem (  3%)Fetching: compass-1.0.1.gem (  6%)Fetching: compass-1.0.1.gem (  9%)Fetching: compass-1.0.1.gem ( 10%)Fetching: compass-1.0.1.gem ( 11%)Fetching: compass-1.0.1.gem ( 12%)Fetching: compass-1.0.1.gem ( 13%)Fetching: compass-1.0.1.gem ( 14%)Fetching: compass-1.0.1.gem ( 15%)Fetching: compass-1.0.1.gem ( 16%)Fetching: compass-1.0.1.gem ( 17%)Fetching: compass-1.0.1.gem ( 18%)Fetching: compass-1.0.1.gem ( 19%)Fetching: compass-1.0.1.gem ( 22%)Fetching: compass-1.0.1.gem ( 23%)Fetching: compass-1.0.1.gem ( 24%)Fetching: compass-1.0.1.gem ( 25%)Fetching: compass-1.0.1.gem ( 26%)Fetching: compass-1.0.1.gem ( 27%)Fetching: compass-1.0.1.gem ( 28%)Fetching: compass-1.0.1.gem ( 29%)Fetching: compass-1.0.1.gem ( 30%)Fetching: compass-1.0.1.gem ( 31%)Fetching: compass-1.0.1.gem ( 32%)Fetching: compass-1.0.1.gem ( 33%)Fetching: compass-1.0.1.gem ( 34%)Fetching: compass-1.0.1.gem ( 35%)Fetching: compass-1.0.1.gem ( 36%)Fetching: compass-1.0.1.gem ( 37%)Fetching: compass-1.0.1.gem ( 38%)Fetching: compass-1.0.1.gem ( 39%)Fetching: compass-1.0.1.gem ( 40%)Fetching: compass-1.0.1.gem ( 41%)Fetching: compass-1.0.1.gem ( 42%)Fetching: compass-1.0.1.gem ( 43%)Fetching: compass-1.0.1.gem ( 44%)Fetching: compass-1.0.1.gem ( 45%)Fetching: compass-1.0.1.gem ( 46%)Fetching: compass-1.0.1.gem ( 47%)Fetching: compass-1.0.1.gem ( 48%)Fetching: compass-1.0.1.gem ( 49%)Fetching: compass-1.0.1.gem ( 50%)Fetching: compass-1.0.1.gem ( 51%)Fetching: compass-1.0.1.gem ( 52%)Fetching: compass-1.0.1.gem ( 53%)Fetching: compass-1.0.1.gem ( 54%)Fetching: compass-1.0.1.gem ( 55%)Fetching: compass-1.0.1.gem ( 56%)Fetching: compass-1.0.1.gem ( 57%)Fetching: compass-1.0.1.gem ( 58%)Fetching: compass-1.0.1.gem ( 62%)Fetching: compass-1.0.1.gem ( 63%)Fetching: compass-1.0.1.gem ( 64%)Fetching: compass-1.0.1.gem ( 65%)Fetching: compass-1.0.1.gem ( 66%)Fetching: compass-1.0.1.gem ( 67%)Fetching: compass-1.0.1.gem ( 68%)Fetching: compass-1.0.1.gem ( 69%)Fetching: compass-1.0.1.gem ( 70%)Fetching: compass-1.0.1.gem ( 71%)Fetching: compass-1.0.1.gem ( 72%)Fetching: compass-1.0.1.gem ( 73%)Fetching: compass-1.0.1.gem ( 74%)Fetching: compass-1.0.1.gem ( 75%)Fetching: compass-1.0.1.gem ( 76%)Fetching: compass-1.0.1.gem ( 77%)Fetching: compass-1.0.1.gem ( 78%)Fetching: compass-1.0.1.gem ( 79%)Fetching: compass-1.0.1.gem ( 80%)Fetching: compass-1.0.1.gem ( 81%)Fetching: compass-1.0.1.gem ( 82%)Fetching: compass-1.0.1.gem ( 83%)Fetching: compass-1.0.1.gem ( 84%)Fetching: compass-1.0.1.gem ( 85%)Fetching: compass-1.0.1.gem ( 86%)Fetching: compass-1.0.1.gem ( 89%)Fetching: compass-1.0.1.gem ( 90%)Fetching: compass-1.0.1.gem ( 91%)Fetching: compass-1.0.1.gem ( 92%)Fetching: compass-1.0.1.gem ( 93%)Fetching: compass-1.0.1.gem ( 94%)Fetching: compass-1.0.1.gem ( 95%)Fetching: compass-1.0.1.gem ( 96%)Fetching: compass-1.0.1.gem ( 97%)Fetching: compass-1.0.1.gem ( 98%)Fetching: compass-1.0.1.gem ( 99%)Fetching: compass-1.0.1.gem (100%)Fetching: compass-1.0.1.gem (100%)
+    Compass is charityware. If you love it, please donate on our behalf at http://umdf.org/compass Thanks!
+Successfully installed multi_json-1.10.1
+Successfully installed compass-core-1.0.1
+Successfully installed compass-import-once-1.0.5
+Successfully installed chunky_png-1.3.3
+Successfully installed compass-1.0.1
+5 gems installed
+Installing ri documentation for multi_json-1.10.1...
+Installing ri documentation for compass-core-1.0.1...
+Installing ri documentation for compass-import-once-1.0.5...
+Installing ri documentation for chunky_png-1.3.3...
+Installing ri documentation for compass-1.0.1...
+Installing RDoc documentation for multi_json-1.10.1...
+Installing RDoc documentation for compass-core-1.0.1...
+Installing RDoc documentation for compass-import-once-1.0.5...
+Installing RDoc documentation for chunky_png-1.3.3...
+Installing RDoc documentation for compass-1.0.1...
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ compass create my-awesome-compass-project
+[32mdirectory[0m my-awesome-compass-project/ 
+[32mdirectory[0m my-awesome-compass-project/sass/ 
+[32mdirectory[0m my-awesome-compass-project/stylesheets/ 
+[32m   create[0m my-awesome-compass-project/config.rb 
+[32m   create[0m my-awesome-compass-project/sass/screen.scss 
+[32m   create[0m my-awesome-compass-project/sass/print.scss 
+[32m   create[0m my-awesome-compass-project/sass/ie.scss 
+[32m    write[0m my-awesome-compass-project/stylesheets/ie.css
+[32m    write[0m my-awesome-compass-project/stylesheets/print.css
+[32m    write[0m my-awesome-compass-project/stylesheets/screen.css
+
+*********************************************************************
+Congratulations! Your compass project has been created.
+
+You may now add and edit sass stylesheets in the sass subdirectory of your project.
+
+Sass files beginning with an underscore are called partials and won't be
+compiled to CSS, but they can be imported into other sass stylesheets.
+
+You can configure your project by editing the config.rb configuration file.
+
+You must compile your sass stylesheets into CSS when they change.
+This can be done in one of the following ways:
+  1. To compile on demand:
+     compass compile [path/to/project]
+  2. To monitor your project for changes and automatically recompile:
+     compass watch [path/to/project]
+
+More Resources:
+  * Website: http://compass-style.org/
+  * Sass: http://sass-lang.com
+  * Community: http://groups.google.com/group/compass-users/
+
+
+To import your new stylesheets add the following lines of HTML (or equivalent) to your webpage:
+<head>
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+</head>
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$ >>> New template detected: my-awesome-compass-project/sass/screen.scss
+>>> New template detected: my-awesome-compass-project/sass/print.scss
+>>> New template detected: my-awesome-compass-project/sass/ie.scss
+
+]0;david@laptop: ~/dev/css3/compass-testdavid@laptop:~/dev/css3/compass-test$  cd my-awesome-compass-project
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ ls -la
+total 20
+drwxrwxr-x 4 david david 4096 Dec  9 20:13 [0m[01;34m.[0m
+drwxrwxr-x 4 david david 4096 Dec  9 20:13 [01;34m..[0m
+-rw-rw-r-- 1 david david  900 Dec  9 20:13 config.rb
+drwxrwxr-x 2 david david 4096 Dec  9 20:13 [01;34msass[0m
+drwxrwxr-x 2 david david 4096 Dec  9 20:13 [01;34mstylesheets[0m
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ compass watch
+>>> [32mCompass is watching for changes.[0m [31mPress Ctrl-C to Stop.[0m
+^Z
+[2]+  Stopped                 compass watch
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ bg
+[2]+ compass watch &
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ cd sass
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ ls
+ie.scss  print.scss  screen.scss
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ cat > scre en.scss ^C
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ ls -la
+total 20
+drwxrwxr-x 2 david david 4096 Dec  9 20:13 [0m[01;34m.[0m
+drwxrwxr-x 5 david david 4096 Dec  9 20:16 [01;34m..[0m
+-rw-rw-r-- 1 david david  271 Dec  9 20:13 ie.scss
+-rw-rw-r-- 1 david david  213 Dec  9 20:13 print.scss
+-rw-rw-r-- 1 david david  295 Dec  9 20:13 screen.scss
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ cat screen..scss 
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ cat > scre en.scss 
+/*! FILE: sass/screen.scss */
+
+/* Welcome to Compass... */
+
+/* We'll just comment the reset out for now to keep things simple... */
+//@import "compass/reset";
+
+$my_color: #BADA55;
+
+nav {
+  a{
+    color: $my_color;
+    &:hover {
+      color: darken($my_color, 10%);
+    }
+  }
+}
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ [33m modified[0m sass/screen.scss
+>>> Change detected to: my-awesome-compass-project/sass/screen.scss
+[32m    write[0m stylesheets/screen.css
+
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ cat > scre en.scss 
+/*! FILE: sass/screen.scss */
+
+/* Welcome to Compass... */
+
+/* We'll just comment the reset out for now to keep things simple... */
+//@import "compass/reset";
+@import "compass";
+
+$my_color: #BADA55;
+
+/* ... our Sass */
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ [33m modified[0m sass/screen.scss
+>>> Change detected to: my-awesome-compass-project/sass/screen.scss
+[32m    write[0m stylesheets/screen.css
+
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ cat >> not [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K../ ../notes 
+mixin list http://compass-style.org/reference/compass/
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ cat > scre en.scss 
+/*! FILE: sass/screen.scss */
+
+//Let's add that reset back in now, 'cos it's helpful...
+@import "compass/reset";
+@import "compass";
+
+$my_color: #BADA55;
+nav {
+  @include float-right;   /* Cross-browser floating helper */
+  a {
+    text-decoration: none;  /* Good ol' fashioned CSS */
+    color: $my_color;             
+    /* Cross-browser inline-block helper */
+    @include inline-block;      
+    /* Text-shadow helper + rgba() is a built-in Sass mixin */        
+    @include text-shadow(0 1px 1px rgba(#000,0.3));
+    /* Cross-browser CSS3 transition */
+    @include single-transition(color, 0.5s, ease-in);  
+    &:hover {
+      /* Compass color mixin: shade() */
+      color: shade($my_color, 20%);  
+    }
+  }
+}
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-project/sassdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project/sass$ >>> Change detected to: my-awesome-compass-project/sass/screen.scss
+[33m modified[0m sass/screen.scss
+[32m    write[0m stylesheets/screen.css
+cd ..
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ touch index.htm l
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ cat > index.htmll 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Compass Project</title>
+        <!-- You'll see I've linked the screen.css generated by Compass -->
+        <link rel="stylesheet" href="stylesheets/screen.css">
+    </head>
+    <body>
+        <header>
+	    <h1>My Compass Project</h1>
+            <nav>
+		<a href="#">Bacon</a>
+		<a href="#">Beer</a>
+		<a href="#">Barbecue</a>
+	    </nav>
+	</header>
+    </body>
+</html>
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ google-chrome i ndex.html 
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+Created new window in existing browser session.
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ 
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ ls
+config.rb  index.html  [0m[01;34msass[0m  [01;34mstylesheets[0m
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ ls stylesheets/ [A
+ie.css  print.css  screen.css
+]0;david@laptop: ~/dev/css3/compass-test/my-awesome-compass-projectdavid@laptop:~/dev/css3/compass-test/my-awesome-compass-project$ cd ..[K[K[K[K[Kcd 
+
