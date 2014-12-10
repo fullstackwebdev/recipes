@@ -1,0 +1,3 @@
+[submodule "devops/ubuntu/ttyrec/ttygif"]
+	path = devops/ubuntu/ttyrec/ttygif
+	url = https://github.com/icholy/ttygif
