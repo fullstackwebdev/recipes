@@ -1,0 +1,457 @@
+Script started on Wed 10 Dec 2014 12:58:35 AM EST
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# apt-get install ttyrec
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 91%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-36-generic linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+The following NEW packages will be installed:
+  ttyrec
+0 upgraded, 1 newly installed, 0 to remove and 50 not upgraded.
+Need to get 35.7 kB of archives.
+After this operation, 164 kB of additional disk space will be used.
+0% [Working]            Get:1 http://mirrors.digitalocean.com/ubuntu/ trusty/universe ttyrec amd64 1.0.8-5 [35.7 kB]
+            0% [1 ttyrec 0 B/35.7 kB 0%]                            100% [Working]              Fetched 35.7 kB in 0s (1,129 kB/s)
+Selecting previously unselected package ttyrec.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123873 files and directories currently installed.)
+Preparing to unpack .../ttyrec_1.0.8-5_amd64.deb ...
+Unpacking ttyrec (1.0.8-5) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for mime-support (3.54ubuntu1) ...
+Setting up ttyrec (1.0.8-5) ...
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# clear
+[H[2J]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ttygif
+ttygif: command not found
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# sudo apt-get install imagemagick ttyrec gcc[K
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+ttyrec is already the newest version.
+The following packages were automatically installed and are no longer required:
+  linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-36-generic linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  fontconfig ghostscript gsfonts hicolor-icon-theme imagemagick-common
+  libavahi-client3 libavahi-common-data libavahi-common3 libcairo2 libcroco3
+  libcups2 libcupsfilters1 libcupsimage2 libdatrie1 libdjvulibre-text
+  libdjvulibre21 libfftw3-double3 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common
+  libgraphite2-3 libgs9 libgs9-common libharfbuzz0b libijs-0.35 libilmbase6
+  libjasper1 libjbig2dec0 liblcms2-2 liblqr-1-0 libltdl7 libmagickcore5
+  libmagickcore5-extra libmagickwand5 libnetpbm10 libopenexr6 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpaper-utils libpaper1 libpixman-1-0
+  librsvg2-2 librsvg2-common libthai-data libthai0 libwmf0.2-7 libxcb-render0
+  libxcb-shm0 libxrender1 netpbm poppler-data
+Suggested packages:
+  ghostscript-x hpijs imagemagick-doc autotrace cups-bsd lpr lprng enscript
+  ffmpeg gimp gnuplot grads hp2xx html2ps libwmf-bin mplayer povray radiance
+  sane-utils texlive-base-bin transfig xdg-utils ufraw-batch cups-common
+  libfftw3-bin libfftw3-dev fonts-droid libjasper-runtime liblcms2-utils
+  ttf-baekmuk ttf-arphic-gbsn00lp ttf-arphic-bsmi00lp ttf-arphic-gkai00mp
+  ttf-arphic-bkai00mp librsvg2-bin libwmf0.2-7-gtk poppler-utils
+  fonts-japanese-mincho fonts-ipafont-mincho fonts-japanese-gothic
+  fonts-ipafont-gothic fonts-arphic-ukai fonts-arphic-uming fonts-unfonts-core
+The following NEW packages will be installed:
+  fontconfig ghostscript gsfonts hicolor-icon-theme imagemagick
+  imagemagick-common libavahi-client3 libavahi-common-data libavahi-common3
+  libcairo2 libcroco3 libcups2 libcupsfilters1 libcupsimage2 libdatrie1
+  libdjvulibre-text libdjvulibre21 libfftw3-double3 libgdk-pixbuf2.0-0
+  libgdk-pixbuf2.0-common libgraphite2-3 libgs9 libgs9-common libharfbuzz0b
+  libijs-0.35 libilmbase6 libjasper1 libjbig2dec0 liblcms2-2 liblqr-1-0
+  libltdl7 libmagickcore5 libmagickcore5-extra libmagickwand5 libnetpbm10
+  libopenexr6 libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0
+  libpaper-utils libpaper1 libpixman-1-0 librsvg2-2 librsvg2-common
+  libthai-data libthai0 libwmf0.2-7 libxcb-render0 libxcb-shm0 libxrender1
+  netpbm poppler-data
+0 upgraded, 52 newly installed, 0 to remove and 50 not upgraded.
+Need to get 16.6 MB of archives.
+After this operation, 63.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+0% [Working]            Get:1 http://mirrors.digitalocean.com/ubuntu/ trusty/main imagemagick-common all 8:6.7.7.10-6ubuntu3 [37.2 kB]
+            0% [1 imagemagick-common 0 B/37.2 kB 0%]                                        0% [Working]            Get:2 http://mirrors.digitalocean.com/ubuntu/ trusty/main libavahi-common-data amd64 0.6.31-4ubuntu1 [21.2 kB]
+            0% [2 libavahi-common-data 0 B/21.2 kB 0%]                                          0% [Working]            Get:3 http://mirrors.digitalocean.com/ubuntu/ trusty/main libavahi-common3 amd64 0.6.31-4ubuntu1 [21.7 kB]
+            0% [3 libavahi-common3 0 B/21.7 kB 0%]                                      0% [Working]            Get:4 http://mirrors.digitalocean.com/ubuntu/ trusty/main libavahi-client3 amd64 0.6.31-4ubuntu1 [25.1 kB]
+            0% [4 libavahi-client3 0 B/25.1 kB 0%]                                      1% [Working]            Get:5 http://mirrors.digitalocean.com/ubuntu/ trusty/main libpixman-1-0 amd64 0.30.2-2ubuntu1 [227 kB]
+            1% [5 libpixman-1-0 0 B/227 kB 0%]                                  2% [Working]            Get:6 http://mirrors.digitalocean.com/ubuntu/ trusty/main libxcb-render0 amd64 1.10-2ubuntu1 [11.0 kB]
+            2% [6 libxcb-render0 0 B/11.0 kB 0%]                                    2% [Working]            Get:7 http://mirrors.digitalocean.com/ubuntu/ trusty/main libxcb-shm0 amd64 1.10-2ubuntu1 [5,432 B]
+            2% [7 libxcb-shm0 0 B/5,432 B 0%]                                 2% [Working]            Get:8 http://mirrors.digitalocean.com/ubuntu/ trusty/main libxrender1 amd64 1:0.9.8-1 [20.9 kB]
+            2% [8 libxrender1 0 B/20.9 kB 0%]                                 2% [Working]            Get:9 http://mirrors.digitalocean.com/ubuntu/ trusty/main libcairo2 amd64 1.13.0~20140204-0ubuntu1 [535 kB]
+            2% [9 libcairo2 0 B/535 kB 0%]                              5% [Working]            Get:10 http://mirrors.digitalocean.com/ubuntu/ trusty/main libcroco3 amd64 0.6.8-2ubuntu1 [82.4 kB]
+            5% [10 libcroco3 0 B/82.4 kB 0%]                                6% [Working]            Get:11 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libcups2 amd64 1.7.2-0ubuntu1.2 [179 kB]
+            6% [11 libcups2 0 B/179 kB 0%]                              7% [Working]            Get:12 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libcupsfilters1 amd64 1.0.52-0ubuntu1.2 [74.4 kB]
+            7% [12 libcupsfilters1 0 B/74.4 kB 0%]                                      7% [Working]            Get:13 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libcupsimage2 amd64 1.7.2-0ubuntu1.2 [15.3 kB]
+            7% [13 libcupsimage2 0 B/15.3 kB 0%]                                    8% [Working]            Get:14 http://mirrors.digitalocean.com/ubuntu/ trusty/main libdatrie1 amd64 0.2.8-1 [16.7 kB]
+            8% [14 libdatrie1 0 B/16.7 kB 0%]                                 8% [Working]            Get:15 http://mirrors.digitalocean.com/ubuntu/ trusty/main libdjvulibre-text all 3.5.25.4-3 [48.8 kB]
+            8% [15 libdjvulibre-text 0 B/48.8 kB 0%]                                        8% [Working]            Get:16 http://mirrors.digitalocean.com/ubuntu/ trusty/main libdjvulibre21 amd64 3.5.25.4-3 [553 kB]
+            8% [16 libdjvulibre21 0 B/553 kB 0%]                                    11% [Working]             Get:17 http://mirrors.digitalocean.com/ubuntu/ trusty/main libfftw3-double3 amd64 3.3.3-7ubuntu3 [702 kB]
+             11% [17 libfftw3-double3 0 B/702 kB 0%]                                       15% [Working]             Get:18 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libjasper1 amd64 1.900.1-14ubuntu3.1 [129 kB]
+             15% [18 libjasper1 0 B/129 kB 0%]                                 16% [Working]             Get:19 http://mirrors.digitalocean.com/ubuntu/ trusty/main libgdk-pixbuf2.0-common all 2.30.7-0ubuntu1 [8,610 B]
+             16% [19 libgdk-pixbuf2.0-common 0 B/8,610 B 0%]                                               16% [Working]             Get:20 http://mirrors.digitalocean.com/ubuntu/ trusty/main libgdk-pixbuf2.0-0 amd64 2.30.7-0ubuntu1 [160 kB]
+             16% [20 libgdk-pixbuf2.0-0 0 B/160 kB 0%]                                         17% [Working]             Get:21 http://mirrors.digitalocean.com/ubuntu/ trusty/main libgraphite2-3 amd64 1.2.4-1ubuntu1 [53.8 kB]
+             17% [21 libgraphite2-3 0 B/53.8 kB 0%]                                      18% [Working]             Get:22 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libharfbuzz0b amd64 0.9.27-1ubuntu1 [127 kB]
+             18% [22 libharfbuzz0b 0 B/127 kB 0%]                                    18% [Working]             Get:23 http://mirrors.digitalocean.com/ubuntu/ trusty/main libilmbase6 amd64 1.0.1-6ubuntu1 [53.6 kB]
+             18% [23 libilmbase6 0 B/53.6 kB 0%]                                   19% [Working]             Get:24 http://mirrors.digitalocean.com/ubuntu/ trusty/main liblcms2-2 amd64 2.5-0ubuntu4 [132 kB]
+             19% [24 liblcms2-2 0 B/132 kB 0%]                                 19% [Working]             Get:25 http://mirrors.digitalocean.com/ubuntu/ trusty/main liblqr-1-0 amd64 0.4.1-2ubuntu1 [23.4 kB]
+             19% [25 liblqr-1-0 0 B/23.4 kB 0%]                                  20% [Working]             Get:26 http://mirrors.digitalocean.com/ubuntu/ trusty/main libltdl7 amd64 2.4.2-1.7ubuntu1 [35.0 kB]
+             20% [26 libltdl7 0 B/35.0 kB 0%]                                20% [Working]             Get:27 http://mirrors.digitalocean.com/ubuntu/ trusty/main libmagickcore5 amd64 8:6.7.7.10-6ubuntu3 [1,469 kB]
+             20% [27 libmagickcore5 0 B/1,469 kB 0%]                                       29% [Working]             Get:28 http://mirrors.digitalocean.com/ubuntu/ trusty/main libmagickwand5 amd64 8:6.7.7.10-6ubuntu3 [266 kB]
+             29% [28 libmagickwand5 0 B/266 kB 0%]                                     30% [Working]             Get:29 http://mirrors.digitalocean.com/ubuntu/ trusty/main libopenexr6 amd64 1.6.1-7ubuntu1 [164 kB]
+             30% [29 libopenexr6 0 B/164 kB 0%]                                  31% [Working]             Get:30 http://mirrors.digitalocean.com/ubuntu/ trusty/main libthai-data all 0.1.20-3 [130 kB]
+             31% [30 libthai-data 0 B/130 kB 0%]                                   32% [Working]             Get:31 http://mirrors.digitalocean.com/ubuntu/ trusty/main libthai0 amd64 0.1.20-3 [16.9 kB]
+             32% [31 libthai0 0 B/16.9 kB 0%]                                32% [Working]             Get:32 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main fontconfig amd64 2.11.0-0ubuntu4.1 [176 kB]
+             32% [32 fontconfig 0 B/176 kB 0%]                                 33% [Working]             Get:33 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libpango-1.0-0 amd64 1.36.3-1ubuntu1.1 [149 kB]
+             33% [33 libpango-1.0-0 0 B/149 kB 0%]                                     34% [Working]             Get:34 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libpangoft2-1.0-0 amd64 1.36.3-1ubuntu1.1 [32.7 kB]
+             34% [34 libpangoft2-1.0-0 0 B/32.7 kB 0%]                                         34% [Working]             Get:35 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libpangocairo-1.0-0 amd64 1.36.3-1ubuntu1.1 [20.0 kB]
+             34% [35 libpangocairo-1.0-0 0 B/20.0 kB 0%]                                           34% [Working]             Get:36 http://mirrors.digitalocean.com/ubuntu/ trusty/main librsvg2-2 amd64 2.40.2-1 [88.3 kB]
+             34% [36 librsvg2-2 0 B/88.3 kB 0%]                                  35% [Working]             Get:37 http://mirrors.digitalocean.com/ubuntu/ trusty/main libwmf0.2-7 amd64 0.2.8.4-10.3ubuntu1 [173 kB]
+             35% [37 libwmf0.2-7 0 B/173 kB 0%]                                  36% [Working]             Get:38 http://mirrors.digitalocean.com/ubuntu/ trusty/main libmagickcore5-extra amd64 8:6.7.7.10-6ubuntu3 [57.9 kB]
+             36% [38 libmagickcore5-extra 0 B/57.9 kB 0%]                                            36% [Working]             Get:39 http://mirrors.digitalocean.com/ubuntu/ trusty/main libpaper1 amd64 1.1.24+nmu2ubuntu3 [13.4 kB]
+             36% [39 libpaper1 0 B/13.4 kB 0%]                                 36% [Working]             Get:40 http://mirrors.digitalocean.com/ubuntu/ trusty/main poppler-data all 0.4.6-4 [1,479 kB]
+             36% [40 poppler-data 0 B/1,479 kB 0%]                                     45% [Working]             Get:41 http://mirrors.digitalocean.com/ubuntu/ trusty/main libijs-0.35 amd64 0.35-8build1 [16.8 kB]
+             45% [41 libijs-0.35 0 B/16.8 kB 0%]                                   45% [Working]             Get:42 http://mirrors.digitalocean.com/ubuntu/ trusty/main libjbig2dec0 amd64 0.11+20120125-1ubuntu1 [48.6 kB]
+             45% [42 libjbig2dec0 0 B/48.6 kB 0%]                                    46% [Working]             Get:43 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libgs9-common all 9.10~dfsg-0ubuntu10.2 [2,068 kB]
+             46% [43 libgs9-common 0 B/2,068 kB 0%]                                      58% [Working]             Get:44 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main libgs9 amd64 9.10~dfsg-0ubuntu10.2 [1,942 kB]
+             58% [44 libgs9 0 B/1,942 kB 0%]                               70% [Working]             Get:45 http://mirrors.digitalocean.com/ubuntu/ trusty/main gsfonts all 1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1 [3,374 kB]
+             70% [45 gsfonts 0 B/3,374 kB 0%]                                90% [Working]             Get:46 http://mirrors.digitalocean.com/ubuntu/ trusty-updates/main ghostscript amd64 9.10~dfsg-0ubuntu10.2 [40.8 kB]
+             90% [46 ghostscript 0 B/40.8 kB 0%]                                   90% [Working]             Get:47 http://mirrors.digitalocean.com/ubuntu/ trusty/main hicolor-icon-theme all 0.13-1 [7,140 B]
+             90% [47 hicolor-icon-theme 0 B/7,140 B 0%]                                          90% [Working]             Get:48 http://mirrors.digitalocean.com/ubuntu/ trusty/main imagemagick amd64 8:6.7.7.10-6ubuntu3 [188 kB]
+             90% [48 imagemagick 0 B/188 kB 0%]                                  91% [Working]             Get:49 http://mirrors.digitalocean.com/ubuntu/ trusty/main libnetpbm10 amd64 2:10.0-15ubuntu2 [69.0 kB]
+             91% [49 libnetpbm10 0 B/69.0 kB 0%]                                   92% [Working]             Get:50 http://mirrors.digitalocean.com/ubuntu/ trusty/main libpaper-utils amd64 1.1.24+nmu2ubuntu3 [8,244 B]
+             92% [50 libpaper-utils 0 B/8,244 B 0%]                                      92% [Working]             Get:51 http://mirrors.digitalocean.com/ubuntu/ trusty/main librsvg2-common amd64 2.40.2-1 [4,990 B]
+             92% [51 librsvg2-common 0 B/4,990 B 0%]                                       92% [Working]             Get:52 http://mirrors.digitalocean.com/ubuntu/ trusty/main netpbm amd64 2:10.0-15ubuntu2 [1,341 kB]
+             92% [52 netpbm 0 B/1,341 kB 0%]                               100% [Working]              Fetched 16.6 MB in 1s (12.6 MB/s)
+Extracting templates from packages: 57%Extracting templates from packages: 100%
+Preconfiguring packages ...
+Selecting previously unselected package imagemagick-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123886 files and directories currently installed.)
+Preparing to unpack .../imagemagick-common_8%3a6.7.7.10-6ubuntu3_all.deb ...
+Unpacking imagemagick-common (8:6.7.7.10-6ubuntu3) ...
+Selecting previously unselected package libavahi-common-data:amd64.
+Preparing to unpack .../libavahi-common-data_0.6.31-4ubuntu1_amd64.deb ...
+Unpacking libavahi-common-data:amd64 (0.6.31-4ubuntu1) ...
+Selecting previously unselected package libavahi-common3:amd64.
+Preparing to unpack .../libavahi-common3_0.6.31-4ubuntu1_amd64.deb ...
+Unpacking libavahi-common3:amd64 (0.6.31-4ubuntu1) ...
+Selecting previously unselected package libavahi-client3:amd64.
+Preparing to unpack .../libavahi-client3_0.6.31-4ubuntu1_amd64.deb ...
+Unpacking libavahi-client3:amd64 (0.6.31-4ubuntu1) ...
+Selecting previously unselected package libpixman-1-0:amd64.
+Preparing to unpack .../libpixman-1-0_0.30.2-2ubuntu1_amd64.deb ...
+Unpacking libpixman-1-0:amd64 (0.30.2-2ubuntu1) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../libxcb-render0_1.10-2ubuntu1_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.10-2ubuntu1) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../libxcb-shm0_1.10-2ubuntu1_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.10-2ubuntu1) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../libxrender1_1%3a0.9.8-1_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.8-1) ...
+Selecting previously unselected package libcairo2:amd64.
+Preparing to unpack .../libcairo2_1.13.0~20140204-0ubuntu1_amd64.deb ...
+Unpacking libcairo2:amd64 (1.13.0~20140204-0ubuntu1) ...
+Selecting previously unselected package libcroco3:amd64.
+Preparing to unpack .../libcroco3_0.6.8-2ubuntu1_amd64.deb ...
+Unpacking libcroco3:amd64 (0.6.8-2ubuntu1) ...
+Selecting previously unselected package libcups2:amd64.
+Preparing to unpack .../libcups2_1.7.2-0ubuntu1.2_amd64.deb ...
+Unpacking libcups2:amd64 (1.7.2-0ubuntu1.2) ...
+Selecting previously unselected package libcupsfilters1:amd64.
+Preparing to unpack .../libcupsfilters1_1.0.52-0ubuntu1.2_amd64.deb ...
+Unpacking libcupsfilters1:amd64 (1.0.52-0ubuntu1.2) ...
+Selecting previously unselected package libcupsimage2:amd64.
+Preparing to unpack .../libcupsimage2_1.7.2-0ubuntu1.2_amd64.deb ...
+Unpacking libcupsimage2:amd64 (1.7.2-0ubuntu1.2) ...
+Selecting previously unselected package libdatrie1:amd64.
+Preparing to unpack .../libdatrie1_0.2.8-1_amd64.deb ...
+Unpacking libdatrie1:amd64 (0.2.8-1) ...
+Selecting previously unselected package libdjvulibre-text.
+Preparing to unpack .../libdjvulibre-text_3.5.25.4-3_all.deb ...
+Unpacking libdjvulibre-text (3.5.25.4-3) ...
+Selecting previously unselected package libdjvulibre21:amd64.
+Preparing to unpack .../libdjvulibre21_3.5.25.4-3_amd64.deb ...
+Unpacking libdjvulibre21:amd64 (3.5.25.4-3) ...
+Selecting previously unselected package libfftw3-double3:amd64.
+Preparing to unpack .../libfftw3-double3_3.3.3-7ubuntu3_amd64.deb ...
+Unpacking libfftw3-double3:amd64 (3.3.3-7ubuntu3) ...
+Selecting previously unselected package libjasper1:amd64.
+Preparing to unpack .../libjasper1_1.900.1-14ubuntu3.1_amd64.deb ...
+Unpacking libjasper1:amd64 (1.900.1-14ubuntu3.1) ...
+Selecting previously unselected package libgdk-pixbuf2.0-common.
+Preparing to unpack .../libgdk-pixbuf2.0-common_2.30.7-0ubuntu1_all.deb ...
+Unpacking libgdk-pixbuf2.0-common (2.30.7-0ubuntu1) ...
+Selecting previously unselected package libgdk-pixbuf2.0-0:amd64.
+Preparing to unpack .../libgdk-pixbuf2.0-0_2.30.7-0ubuntu1_amd64.deb ...
+Unpacking libgdk-pixbuf2.0-0:amd64 (2.30.7-0ubuntu1) ...
+Selecting previously unselected package libgraphite2-3:amd64.
+Preparing to unpack .../libgraphite2-3_1.2.4-1ubuntu1_amd64.deb ...
+Unpacking libgraphite2-3:amd64 (1.2.4-1ubuntu1) ...
+Selecting previously unselected package libharfbuzz0b:amd64.
+Preparing to unpack .../libharfbuzz0b_0.9.27-1ubuntu1_amd64.deb ...
+Unpacking libharfbuzz0b:amd64 (0.9.27-1ubuntu1) ...
+Selecting previously unselected package libilmbase6:amd64.
+Preparing to unpack .../libilmbase6_1.0.1-6ubuntu1_amd64.deb ...
+Unpacking libilmbase6:amd64 (1.0.1-6ubuntu1) ...
+Selecting previously unselected package liblcms2-2:amd64.
+Preparing to unpack .../liblcms2-2_2.5-0ubuntu4_amd64.deb ...
+Unpacking liblcms2-2:amd64 (2.5-0ubuntu4) ...
+Selecting previously unselected package liblqr-1-0:amd64.
+Preparing to unpack .../liblqr-1-0_0.4.1-2ubuntu1_amd64.deb ...
+Unpacking liblqr-1-0:amd64 (0.4.1-2ubuntu1) ...
+Selecting previously unselected package libltdl7:amd64.
+Preparing to unpack .../libltdl7_2.4.2-1.7ubuntu1_amd64.deb ...
+Unpacking libltdl7:amd64 (2.4.2-1.7ubuntu1) ...
+Selecting previously unselected package libmagickcore5:amd64.
+Preparing to unpack .../libmagickcore5_8%3a6.7.7.10-6ubuntu3_amd64.deb ...
+Unpacking libmagickcore5:amd64 (8:6.7.7.10-6ubuntu3) ...
+Selecting previously unselected package libmagickwand5:amd64.
+Preparing to unpack .../libmagickwand5_8%3a6.7.7.10-6ubuntu3_amd64.deb ...
+Unpacking libmagickwand5:amd64 (8:6.7.7.10-6ubuntu3) ...
+Selecting previously unselected package libopenexr6:amd64.
+Preparing to unpack .../libopenexr6_1.6.1-7ubuntu1_amd64.deb ...
+Unpacking libopenexr6:amd64 (1.6.1-7ubuntu1) ...
+Selecting previously unselected package libthai-data.
+Preparing to unpack .../libthai-data_0.1.20-3_all.deb ...
+Unpacking libthai-data (0.1.20-3) ...
+Selecting previously unselected package libthai0:amd64.
+Preparing to unpack .../libthai0_0.1.20-3_amd64.deb ...
+Unpacking libthai0:amd64 (0.1.20-3) ...
+Selecting previously unselected package fontconfig.
+Preparing to unpack .../fontconfig_2.11.0-0ubuntu4.1_amd64.deb ...
+Unpacking fontconfig (2.11.0-0ubuntu4.1) ...
+Selecting previously unselected package libpango-1.0-0:amd64.
+Preparing to unpack .../libpango-1.0-0_1.36.3-1ubuntu1.1_amd64.deb ...
+Unpacking libpango-1.0-0:amd64 (1.36.3-1ubuntu1.1) ...
+Selecting previously unselected package libpangoft2-1.0-0:amd64.
+Preparing to unpack .../libpangoft2-1.0-0_1.36.3-1ubuntu1.1_amd64.deb ...
+Unpacking libpangoft2-1.0-0:amd64 (1.36.3-1ubuntu1.1) ...
+Selecting previously unselected package libpangocairo-1.0-0:amd64.
+Preparing to unpack .../libpangocairo-1.0-0_1.36.3-1ubuntu1.1_amd64.deb ...
+Unpacking libpangocairo-1.0-0:amd64 (1.36.3-1ubuntu1.1) ...
+Selecting previously unselected package librsvg2-2:amd64.
+Preparing to unpack .../librsvg2-2_2.40.2-1_amd64.deb ...
+Unpacking librsvg2-2:amd64 (2.40.2-1) ...
+Selecting previously unselected package libwmf0.2-7:amd64.
+Preparing to unpack .../libwmf0.2-7_0.2.8.4-10.3ubuntu1_amd64.deb ...
+Unpacking libwmf0.2-7:amd64 (0.2.8.4-10.3ubuntu1) ...
+Selecting previously unselected package libmagickcore5-extra:amd64.
+Preparing to unpack .../libmagickcore5-extra_8%3a6.7.7.10-6ubuntu3_amd64.deb ...
+Unpacking libmagickcore5-extra:amd64 (8:6.7.7.10-6ubuntu3) ...
+Selecting previously unselected package libpaper1:amd64.
+Preparing to unpack .../libpaper1_1.1.24+nmu2ubuntu3_amd64.deb ...
+Unpacking libpaper1:amd64 (1.1.24+nmu2ubuntu3) ...
+Selecting previously unselected package poppler-data.
+Preparing to unpack .../poppler-data_0.4.6-4_all.deb ...
+Unpacking poppler-data (0.4.6-4) ...
+Selecting previously unselected package libijs-0.35.
+Preparing to unpack .../libijs-0.35_0.35-8build1_amd64.deb ...
+Unpacking libijs-0.35 (0.35-8build1) ...
+Selecting previously unselected package libjbig2dec0.
+Preparing to unpack .../libjbig2dec0_0.11+20120125-1ubuntu1_amd64.deb ...
+Unpacking libjbig2dec0 (0.11+20120125-1ubuntu1) ...
+Selecting previously unselected package libgs9-common.
+Preparing to unpack .../libgs9-common_9.10~dfsg-0ubuntu10.2_all.deb ...
+Unpacking libgs9-common (9.10~dfsg-0ubuntu10.2) ...
+Selecting previously unselected package libgs9.
+Preparing to unpack .../libgs9_9.10~dfsg-0ubuntu10.2_amd64.deb ...
+Unpacking libgs9 (9.10~dfsg-0ubuntu10.2) ...
+Selecting previously unselected package gsfonts.
+Preparing to unpack .../gsfonts_1%3a8.11+urwcyr1.0.7~pre44-4.2ubuntu1_all.deb ...
+Unpacking gsfonts (1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1) ...
+Selecting previously unselected package ghostscript.
+Preparing to unpack .../ghostscript_9.10~dfsg-0ubuntu10.2_amd64.deb ...
+Unpacking ghostscript (9.10~dfsg-0ubuntu10.2) ...
+Selecting previously unselected package hicolor-icon-theme.
+Preparing to unpack .../hicolor-icon-theme_0.13-1_all.deb ...
+Unpacking hicolor-icon-theme (0.13-1) ...
+Selecting previously unselected package imagemagick.
+Preparing to unpack .../imagemagick_8%3a6.7.7.10-6ubuntu3_amd64.deb ...
+Unpacking imagemagick (8:6.7.7.10-6ubuntu3) ...
+Selecting previously unselected package libnetpbm10.
+Preparing to unpack .../libnetpbm10_2%3a10.0-15ubuntu2_amd64.deb ...
+Unpacking libnetpbm10 (2:10.0-15ubuntu2) ...
+Selecting previously unselected package libpaper-utils.
+Preparing to unpack .../libpaper-utils_1.1.24+nmu2ubuntu3_amd64.deb ...
+Unpacking libpaper-utils (1.1.24+nmu2ubuntu3) ...
+Selecting previously unselected package librsvg2-common:amd64.
+Preparing to unpack .../librsvg2-common_2.40.2-1_amd64.deb ...
+Unpacking librsvg2-common:amd64 (2.40.2-1) ...
+Selecting previously unselected package netpbm.
+Preparing to unpack .../netpbm_2%3a10.0-15ubuntu2_amd64.deb ...
+Unpacking netpbm (2:10.0-15ubuntu2) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for mime-support (3.54ubuntu1) ...
+Setting up imagemagick-common (8:6.7.7.10-6ubuntu3) ...
+Setting up libavahi-common-data:amd64 (0.6.31-4ubuntu1) ...
+Setting up libavahi-common3:amd64 (0.6.31-4ubuntu1) ...
+Setting up libavahi-client3:amd64 (0.6.31-4ubuntu1) ...
+Setting up libpixman-1-0:amd64 (0.30.2-2ubuntu1) ...
+Setting up libxcb-render0:amd64 (1.10-2ubuntu1) ...
+Setting up libxcb-shm0:amd64 (1.10-2ubuntu1) ...
+Setting up libxrender1:amd64 (1:0.9.8-1) ...
+Setting up libcairo2:amd64 (1.13.0~20140204-0ubuntu1) ...
+Setting up libcroco3:amd64 (0.6.8-2ubuntu1) ...
+Setting up libcups2:amd64 (1.7.2-0ubuntu1.2) ...
+Setting up libcupsfilters1:amd64 (1.0.52-0ubuntu1.2) ...
+Setting up libcupsimage2:amd64 (1.7.2-0ubuntu1.2) ...
+Setting up libdatrie1:amd64 (0.2.8-1) ...
+Setting up libdjvulibre-text (3.5.25.4-3) ...
+Setting up libdjvulibre21:amd64 (3.5.25.4-3) ...
+Setting up libfftw3-double3:amd64 (3.3.3-7ubuntu3) ...
+Setting up libjasper1:amd64 (1.900.1-14ubuntu3.1) ...
+Setting up libgdk-pixbuf2.0-common (2.30.7-0ubuntu1) ...
+Setting up libgdk-pixbuf2.0-0:amd64 (2.30.7-0ubuntu1) ...
+Setting up libgraphite2-3:amd64 (1.2.4-1ubuntu1) ...
+Setting up libharfbuzz0b:amd64 (0.9.27-1ubuntu1) ...
+Setting up libilmbase6:amd64 (1.0.1-6ubuntu1) ...
+Setting up liblcms2-2:amd64 (2.5-0ubuntu4) ...
+Setting up liblqr-1-0:amd64 (0.4.1-2ubuntu1) ...
+Setting up libltdl7:amd64 (2.4.2-1.7ubuntu1) ...
+Setting up libmagickcore5:amd64 (8:6.7.7.10-6ubuntu3) ...
+Setting up libmagickwand5:amd64 (8:6.7.7.10-6ubuntu3) ...
+Setting up libopenexr6:amd64 (1.6.1-7ubuntu1) ...
+Setting up libthai-data (0.1.20-3) ...
+Setting up libthai0:amd64 (0.1.20-3) ...
+Setting up fontconfig (2.11.0-0ubuntu4.1) ...
+Regenerating fonts cache... git clone https://github.com/icholy/ttygif.gitdone.
+Setting up libpango-1.0-0:amd64 (1.36.3-1ubuntu1.1) ...
+Setting up libpangoft2-1.0-0:amd64 (1.36.3-1ubuntu1.1) ...
+Setting up libpangocairo-1.0-0:amd64 (1.36.3-1ubuntu1.1) ...
+Setting up librsvg2-2:amd64 (2.40.2-1) ...
+Setting up libwmf0.2-7:amd64 (0.2.8.4-10.3ubuntu1) ...
+Setting up libmagickcore5-extra:amd64 (8:6.7.7.10-6ubuntu3) ...
+Setting up libpaper1:amd64 (1.1.24+nmu2ubuntu3) ...
+
+Creating config file /etc/papersize with new version
+Setting up poppler-data (0.4.6-4) ...
+Setting up libijs-0.35 (0.35-8build1) ...
+Setting up libjbig2dec0 (0.11+20120125-1ubuntu1) ...
+Setting up libgs9-common (9.10~dfsg-0ubuntu10.2) ...
+update-alternatives: using /usr/share/ghostscript/9.10 to provide /usr/share/ghostscript/current (ghostscript-current) in auto mode
+Setting up libgs9 (9.10~dfsg-0ubuntu10.2) ...
+Setting up gsfonts (1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1) ...
+Setting up ghostscript (9.10~dfsg-0ubuntu10.2) ...
+Setting up hicolor-icon-theme (0.13-1) ...
+Setting up imagemagick (8:6.7.7.10-6ubuntu3) ...
+update-alternatives: using /usr/bin/compare.im6 to provide /usr/bin/compare (compare) in auto mode
+update-alternatives: using /usr/bin/animate.im6 to provide /usr/bin/animate (animate) in auto mode
+update-alternatives: using /usr/bin/convert.im6 to provide /usr/bin/convert (convert) in auto mode
+update-alternatives: using /usr/bin/composite.im6 to provide /usr/bin/composite (composite) in auto mode
+update-alternatives: using /usr/bin/conjure.im6 to provide /usr/bin/conjure (conjure) in auto mode
+update-alternatives: using /usr/bin/import.im6 to provide /usr/bin/import (import) in auto mode
+update-alternatives: using /usr/bin/identify.im6 to provide /usr/bin/identify (identify) in auto mode
+update-alternatives: using /usr/bin/stream.im6 to provide /usr/bin/stream (stream) in auto mode
+update-alternatives: using /usr/bin/display.im6 to provide /usr/bin/display (display) in auto mode
+update-alternatives: using /usr/bin/montage.im6 to provide /usr/bin/montage (montage) in auto mode
+update-alternatives: using /usr/bin/mogrify.im6 to provide /usr/bin/mogrify (mogrify) in auto mode
+Setting up libnetpbm10 (2:10.0-15ubuntu2) ...
+Setting up libpaper-utils (1.1.24+nmu2ubuntu3) ...
+Setting up librsvg2-common:amd64 (2.40.2-1) ...
+Setting up netpbm (2:10.0-15ubuntu2) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.3) ...
+Processing triggers for libgdk-pixbuf2.0-0:amd64 (2.30.7-0ubuntu1) ...
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# cd ttygif
+bash: cd: ttygif: No such file or directory
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# cd typescript ^C
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# git clone https://github.com/icholy/ttygif.git
+Cloning into 'ttygif'...
+remote: Counting objects: 311, done.[K
+remote: Compressing objects:   0% (1/158)   [Kremote: Compressing objects:   1% (2/158)   [Kremote: Compressing objects:   2% (4/158)   [Kremote: Compressing objects:   3% (5/158)   [Kremote: Compressing objects:   4% (7/158)   [Kremote: Compressing objects:   5% (8/158)   [Kremote: Compressing objects:   6% (10/158)   [Kremote: Compressing objects:   7% (12/158)   [Kremote: Compressing objects:   8% (13/158)   [Kremote: Compressing objects:   9% (15/158)   [Kremote: Compressing objects:  10% (16/158)   [Kremote: Compressing objects:  11% (18/158)   [Kremote: Compressing objects:  12% (19/158)   [Kremote: Compressing objects:  13% (21/158)   [Kremote: Compressing objects:  14% (23/158)   [Kremote: Compressing objects:  15% (24/158)   [Kremote: Compressing objects:  16% (26/158)   [Kremote: Compressing objects:  17% (27/158)   [Kremote: Compressing objects:  18% (29/158)   [Kremote: Compressing objects:  19% (31/158)   [Kremote: Compressing objects:  20% (32/158)   [Kremote: Compressing objects:  21% (34/158)   [Kremote: Compressing objects:  22% (35/158)   [Kremote: Compressing objects:  23% (37/158)   [Kremote: Compressing objects:  24% (38/158)   [Kremote: Compressing objects:  25% (40/158)   [Kremote: Compressing objects:  26% (42/158)   [Kremote: Compressing objects:  27% (43/158)   [Kremote: Compressing objects:  28% (45/158)   [Kremote: Compressing objects:  29% (46/158)   [Kremote: Compressing objects:  30% (48/158)   [Kremote: Compressing objects:  31% (49/158)   [Kremote: Compressing objects:  32% (51/158)   [Kremote: Compressing objects:  33% (53/158)   [Kremote: Compressing objects:  34% (54/158)   [Kremote: Compressing objects:  35% (56/158)   [Kremote: Compressing objects:  36% (57/158)   [Kremote: Compressing objects:  37% (59/158)   [Kremote: Compressing objects:  38% (61/158)   [Kremote: Compressing objects:  39% (62/158)   [Kremote: Compressing objects:  40% (64/158)   [Kremote: Compressing objects:  41% (65/158)   [Kremote: Compressing objects:  42% (67/158)   [Kremote: Compressing objects:  43% (68/158)   [Kremote: Compressing objects:  44% (70/158)   [Kremote: Compressing objects:  45% (72/158)   [Kremote: Compressing objects:  46% (73/158)   [Kremote: Compressing objects:  47% (75/158)   [Kremote: Compressing objects:  48% (76/158)   [Kremote: Compressing objects:  49% (78/158)   [Kremote: Compressing objects:  50% (79/158)   [Kremote: Compressing objects:  51% (81/158)   [Kremote: Compressing objects:  52% (83/158)   [Kremote: Compressing objects:  53% (84/158)   [Kremote: Compressing objects:  54% (86/158)   [Kremote: Compressing objects:  55% (87/158)   [Kremote: Compressing objects:  56% (89/158)   [Kremote: Compressing objects:  57% (91/158)   [Kremote: Compressing objects:  58% (92/158)   [Kremote: Compressing objects:  59% (94/158)   [Kremote: Compressing objects:  60% (95/158)   [Kremote: Compressing objects:  61% (97/158)   [Kremote: Compressing objects:  62% (98/158)   [Kremote: Compressing objects:  63% (100/158)   [Kremote: Compressing objects:  64% (102/158)   [Kremote: Compressing objects:  65% (103/158)   [Kremote: Compressing objects:  66% (105/158)   [Kremote: Compressing objects:  67% (106/158)   [Kremote: Compressing objects:  68% (108/158)   [Kremote: Compressing objects:  69% (110/158)   [Kremote: Compressing objects:  70% (111/158)   [Kremote: Compressing objects:  71% (113/158)   [Kremote: Compressing objects:  72% (114/158)   [Kremote: Compressing objects:  73% (116/158)   [Kremote: Compressing objects:  74% (117/158)   [Kremote: Compressing objects:  75% (119/158)   [Kremote: Compressing objects:  76% (121/158)   [Kremote: Compressing objects:  77% (122/158)   [Kremote: Compressing objects:  78% (124/158)   [Kremote: Compressing objects:  79% (125/158)   [Kremote: Compressing objects:  80% (127/158)   [Kremote: Compressing objects:  81% (128/158)   [Kremote: Compressing objects:  82% (130/158)   [Kremote: Compressing objects:  83% (132/158)   [Kremote: Compressing objects:  84% (133/158)   [Kremote: Compressing objects:  85% (135/158)   [Kremote: Compressing objects:  86% (136/158)   [Kremote: Compressing objects:  87% (138/158)   [Kremote: Compressing objects:  88% (140/158)   [Kremote: Compressing objects:  89% (141/158)   [Kremote: Compressing objects:  90% (143/158)   [Kremote: Compressing objects:  91% (144/158)   [Kremote: Compressing objects:  92% (146/158)   [Kremote: Compressing objects:  93% (147/158)   [Kremote: Compressing objects:  94% (149/158)   [Kremote: Compressing objects:  95% (151/158)   [Kremote: Compressing objects:  96% (152/158)   [Kremote: Compressing objects:  97% (154/158)   [Kremote: Compressing objects:  98% (155/158)   [Kremote: Compressing objects:  99% (157/158)   [Kremote: Compressing objects: 100% (158/158)   [Kremote: Compressing objects: 100% (158/158), done.[K
+Receiving objects:   0% (1/311)   Receiving objects:   1% (4/311)   Receiving objects:   2% (7/311)   Receiving objects:   3% (10/311)   Receiving objects:   4% (13/311)   Receiving objects:   5% (16/311)   Receiving objects:   6% (19/311)   Receiving objects:   7% (22/311)   Receiving objects:   8% (25/311)   Receiving objects:   9% (28/311)   Receiving objects:  10% (32/311)   Receiving objects:  11% (35/311)   Receiving objects:  12% (38/311)   Receiving objects:  13% (41/311)   Receiving objects:  14% (44/311)   Receiving objects:  15% (47/311)   Receiving objects:  16% (50/311)   Receiving objects:  17% (53/311)   Receiving objects:  18% (56/311)   Receiving objects:  19% (60/311)   Receiving objects:  20% (63/311)   Receiving objects:  21% (66/311)   Receiving objects:  22% (69/311)   Receiving objects:  23% (72/311)   Receiving objects:  24% (75/311)   Receiving objects:  25% (78/311)   Receiving objects:  26% (81/311)   Receiving objects:  27% (84/311)   Receiving objects:  28% (88/311)   Receiving objects:  29% (91/311)   Receiving objects:  30% (94/311)   Receiving objects:  31% (97/311)   Receiving objects:  32% (100/311)   Receiving objects:  33% (103/311)   Receiving objects:  34% (106/311)   Receiving objects:  35% (109/311)   Receiving objects:  36% (112/311)   Receiving objects:  37% (116/311)   Receiving objects:  38% (119/311)   Receiving objects:  39% (122/311)   Receiving objects:  40% (125/311)   Receiving objects:  41% (128/311)   Receiving objects:  42% (131/311)   Receiving objects:  43% (134/311)   Receiving objects:  44% (137/311)   Receiving objects:  45% (140/311)   Receiving objects:  46% (144/311)   Receiving objects:  47% (147/311)   Receiving objects:  48% (150/311)   Receiving objects:  49% (153/311)   Receiving objects:  50% (156/311)   Receiving objects:  51% (159/311)   Receiving objects:  52% (162/311)   Receiving objects:  53% (165/311)   Receiving objects:  54% (168/311)   Receiving objects:  55% (172/311)   Receiving objects:  56% (175/311)   Receiving objects:  57% (178/311)   Receiving objects:  58% (181/311)   Receiving objects:  59% (184/311)   Receiving objects:  60% (187/311)   Receiving objects:  61% (190/311)   Receiving objects:  62% (193/311)   Receiving objects:  63% (196/311)   Receiving objects:  64% (200/311)   Receiving objects:  65% (203/311)   Receiving objects:  66% (206/311)   Receiving objects:  67% (209/311)   Receiving objects:  68% (212/311)   Receiving objects:  69% (215/311)   Receiving objects:  70% (218/311)   Receiving objects:  71% (221/311)   Receiving objects:  72% (224/311)   Receiving objects:  73% (228/311)   Receiving objects:  74% (231/311)   Receiving objects:  75% (234/311)   Receiving objects:  76% (237/311)   Receiving objects:  77% (240/311)   Receiving objects:  78% (243/311)   Receiving objects:  79% (246/311)   remote: Total 311 (delta 149), reused 311 (delta 149)[K
+Receiving objects:  80% (249/311)   Receiving objects:  81% (252/311)   Receiving objects:  82% (256/311)   Receiving objects:  83% (259/311)   Receiving objects:  84% (262/311)   Receiving objects:  85% (265/311)   Receiving objects:  86% (268/311)   Receiving objects:  87% (271/311)   Receiving objects:  88% (274/311)   Receiving objects:  89% (277/311)   Receiving objects:  90% (280/311)   Receiving objects:  91% (284/311)   Receiving objects:  92% (287/311)   Receiving objects:  93% (290/311)   Receiving objects:  94% (293/311)   Receiving objects:  95% (296/311)   Receiving objects:  96% (299/311)   Receiving objects:  97% (302/311)   Receiving objects:  98% (305/311)   Receiving objects:  99% (308/311)   Receiving objects: 100% (311/311)   Receiving objects: 100% (311/311), 65.72 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/149)   Resolving deltas:  10% (16/149)   Resolving deltas:  19% (29/149)   Resolving deltas:  22% (33/149)   Resolving deltas:  31% (47/149)   Resolving deltas:  34% (51/149)   Resolving deltas:  37% (56/149)   Resolving deltas:  43% (65/149)   Resolving deltas:  48% (72/149)   Resolving deltas:  52% (78/149)   Resolving deltas:  53% (79/149)   Resolving deltas:  69% (104/149)   Resolving deltas:  75% (113/149)   Resolving deltas:  77% (115/149)   Resolving deltas:  79% (119/149)   Resolving deltas:  82% (123/149)   Resolving deltas:  85% (127/149)   Resolving deltas:  86% (129/149)   Resolving deltas:  88% (132/149)   Resolving deltas:  92% (138/149)   Resolving deltas:  97% (145/149)   Resolving deltas:  99% (148/149)   Resolving deltas: 100% (149/149)   Resolving deltas: 100% (149/149), done.
+Checking connectivity... done.
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# cd ttygif
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrec/ttygifroot@plop:~/recipes/devops/ubuntu/ttyrec/ttygif# ls -la
+total 72
+drwxr-xr-x 3 root root 4096 Dec 10 01:00 [0m[01;34m.[0m
+drwxr-xr-x 3 root root 4096 Dec 10 01:00 [01;34m..[0m
+-rwxr-xr-x 1 root root  829 Dec 10 01:00 [01;32mconcat_osx.sh[0m
+-rwxr-xr-x 1 root root  881 Dec 10 01:00 [01;32mconcat.sh[0m
+drwxr-xr-x 8 root root 4096 Dec 10 01:00 [01;34m.git[0m
+-rw-r--r-- 1 root root   33 Dec 10 01:00 .gitignore
+-rw-r--r-- 1 root root 4193 Dec 10 01:00 io.c
+-rw-r--r-- 1 root root  415 Dec 10 01:00 io.h
+-rw-r--r-- 1 root root 1077 Dec 10 01:00 LICENSE
+-rw-r--r-- 1 root root  328 Dec 10 01:00 Makefile
+-rw-r--r-- 1 root root 1666 Dec 10 01:00 README.md
+-rw-r--r-- 1 root root 5018 Dec 10 01:00 ttygif.c
+-rw-r--r-- 1 root root 6154 Dec 10 01:00 ttygif_osx.c
+-rw-r--r-- 1 root root  316 Dec 10 01:00 ttygif.rb
+-rw-r--r-- 1 root root  145 Dec 10 01:00 ttyrec.h
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrec/ttygifroot@plop:~/recipes/devops/ubuntu/ttyrec/ttygif#  make
+gcc -O2 -Wall   -c -o ttygif.o ttygif.c
+gcc -O2 -Wall   -c -o io.o io.c
+gcc -O2 -Wall -o ttygif ttygif.o io.o 
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrec/ttygifroot@plop:~/recipes/devops/ubuntu/ttyrec/ttygif# ttyrec myrecording[1@c[1@d[1@ [1@.[1@.[1@ [1@;[1@ 
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ls -la
+total 56
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [0m[01;34m.[0m
+drwxr-xr-x 4 root root  4096 Dec 10 00:58 [01;34m..[0m
+-rw-r--r-- 1 root root   192 Dec 10 01:00 myrecording
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [01;34mttygif[0m
+-rw-r--r-- 1 root root 40960 Dec 10 01:00 typescript
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# exit
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ttygif/ttygif ./myrecording 
+[1;1H[2JError: WINDOWID environment variable was empty.]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# total 56
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [0m[01;34m.[0m
+drwxr-xr-x 4 root root  4096 Dec 10 00:58 [01;34m..[0m
+-rw-r--r-- 1 root root   766 Dec 10 01:00 myrecording
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [01;34mttygif[0m
+-rw-r--r-- 1 root root 40960 Dec 10 01:00 typescript
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# file: invalid option -- 'a'
+Usage: file [-bchikLlNnprsvz0] [--apple] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# [3g        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ls -la
+total 60
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [0m[01;34m.[0m
+drwxr-xr-x 4 root root  4096 Dec 10 00:58 [01;34m..[0m
+-rw-r--r-- 1 root root   766 Dec 10 01:00 myrecording
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [01;34mttygif[0m
+-rw-r--r-- 1 root root 45056 Dec 10 01:02 typescript
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# file myrecording 
+myrecording: data
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# strings myrecording 
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrec
+root@plop:~/recipes/devops/ubuntu/ttyrec# 
+total 56
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 
+[01;34m.
+drwxr-xr-x 4 root root  4096 Dec 10 00:58 
+[01;34m..
+-rw-r--r-- 1 root root   192 Dec 10 01:00 myrecording
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 
+[01;34mttygif
+-rw-r--r-- 1 root root 40960 Dec 10 01:00 typescript
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrec
+root@plop:~/recipes/devops/ubuntu/ttyrec# 
+exit
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ./ttygif/ttygif 
+Usage: ttygif [FILE]
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ./ttygif/ttygif  ./myrecording 
+[1;1H[2JError: WINDOWID environment variable was empty.]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# total 60
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [0m[01;34m.[0m
+drwxr-xr-x 4 root root  4096 Dec 10 00:58 [01;34m..[0m
+-rw-r--r-- 1 root root   766 Dec 10 01:00 myrecording
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [01;34mttygif[0m
+-rw-r--r-- 1 root root 45056 Dec 10 01:02 typescript
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# [3g        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# resetls -la./ttygif/ttygif  ./myrecording 
+[1;1H[2JError: WINDOWID environment variable was empty.]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# [3g        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# 
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# clear
+[H[2J]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# clearreset./ttygif/ttygif  ./myrecording -f
+[1;1H[2JError: WINDOWID environment variable was empty.]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# [3g        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# clear
+[H[2J]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# ls -la
+total 60
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [0m[01;34m.[0m
+drwxr-xr-x 4 root root  4096 Dec 10 00:58 [01;34m..[0m
+-rw-r--r-- 1 root root   766 Dec 10 01:00 myrecording
+drwxr-xr-x 3 root root  4096 Dec 10 01:00 [01;34mttygif[0m
+-rw-r--r-- 1 root root 45056 Dec 10 01:02 typescript
+]0;root@plop: ~/recipes/devops/ubuntu/ttyrecroot@plop:~/recipes/devops/ubuntu/ttyrec# cd ..
+]0;root@plop: ~/recipes/devops/ubunturoot@plop:~/recipes/devops/ubuntu# exit
+
+Script done on Wed 10 Dec 2014 01:05:52 AM EST
