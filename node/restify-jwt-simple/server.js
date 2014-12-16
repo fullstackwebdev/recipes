@@ -31,7 +31,6 @@ function auth(req, res, next) {
     token = req.headers.token;
     var decoded = jwt.decode(token, secret);
     console.log("Decoded :" + JSON.stringify(decoded)); //=> { foo: 'bar' }*/
-
     //if()
     next();
 }
